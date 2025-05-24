@@ -1,0 +1,15 @@
+# 1. Initialized the project (if not already done)
+
+npm init -y
+
+# 2. Installed SASS as a development dependency
+
+npm install sass --save-dev
+
+# 3. (Optional) Verified the installation by checking the version
+
+npx sass --version
+
+# 4. (Optional) Created a sample .scss file and compiled it using:
+
+npx sass src/styles/main.scss public/styles/main.css
